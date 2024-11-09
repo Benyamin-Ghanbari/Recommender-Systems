@@ -45,7 +45,7 @@ In mathematical terms, if **U** is the user vector and **P** is the product vect
 
 $\text{Dot Product} = U \cdot P = \sum_{i=1}^{n} U_i \times P_i$
 
-where \( U_i \) and \( P_i \) are the components of the user and product vectors, respectively, and \( n \) is the embedding size.
+where \( U_i \) and \( P_i \) are the components of the user and product vectors, respectively, and \( n \) is dimension of the vector space.
 
 This dot product serves as the input to the final layer, which uses a sigmoid activation to output a predicted rating, bounded between 0 and 1.
 
