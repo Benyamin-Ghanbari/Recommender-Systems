@@ -43,9 +43,7 @@ By calculating the dot product between these two vectors, the model produces a s
 
 In mathematical terms, if **U** is the user vector and **P** is the product vector, the dot product is calculated as:
 
-\[
-\text{Dot Product} = U \cdot P = \sum_{i=1}^{n} U_i \times P_i
-\]
+$\text{Dot Product} = U \cdot P = \sum_{i=1}^{n} U_i \times P_i$
 
 where \( U_i \) and \( P_i \) are the components of the user and product vectors, respectively, and \( n \) is the embedding size.
 
